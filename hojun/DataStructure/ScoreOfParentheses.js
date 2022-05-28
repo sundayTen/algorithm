@@ -50,7 +50,6 @@ console.log("((((()))))()(()())()".replaceAll("()", 1));
 console.log("(()(()))".replaceAll("()", 1));
 
 const convertNumber = (arr) => {
-  console.log("🚀 DATA :  ~ arr", arr);
   const numMap = arr.map((d) => !(d === "(" || d === ")"));
   const result = [];
   let acc = 0;
