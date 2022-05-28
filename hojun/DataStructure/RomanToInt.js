@@ -57,7 +57,3 @@ const romanToInt = (s) => {
     })
     .reduce((acc, cur) => acc + cur);
 };
-
-console.log(romanToInt("MCMXCIV"));
-
-// ['X', 'X', "V", "I", "I"]
