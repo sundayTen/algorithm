@@ -40,7 +40,7 @@ DFS, BFS 는 트리를 탐색하는 방법 중 하나입니다.
 | 설명     | 현재 노드에서 깊게 들어가면서 탐색 | 현재 노드에서 가까운 노드부터 탐색 |
 | 구현방법 | Stack                              | Recursive                          | Queue |
 
-[https://w.namu.la/s/1fe9246903b78fae07577b243a0b22791e02cb39640d5cbaae10d9849343b4ea6f162a9a677a5892fbf7819abd4ef7221ebd3608849cfb66793411fb5e6439511c8a807f0612cfd01b7c39aa3acc08f8be0179ace3eb18f1aa74856323400c70](https://w.namu.la/s/1fe9246903b78fae07577b243a0b22791e02cb39640d5cbaae10d9849343b4ea6f162a9a677a5892fbf7819abd4ef7221ebd3608849cfb66793411fb5e6439511c8a807f0612cfd01b7c39aa3acc08f8be0179ace3eb18f1aa74856323400c70)
+[설명 사진](https://w.namu.la/s/1fe9246903b78fae07577b243a0b22791e02cb39640d5cbaae10d9849343b4ea6f162a9a677a5892fbf7819abd4ef7221ebd3608849cfb66793411fb5e6439511c8a807f0612cfd01b7c39aa3acc08f8be0179ace3eb18f1aa74856323400c70)
 
 # 사용 방법
 
