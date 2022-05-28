@@ -19,7 +19,6 @@ const executeRuleOneAndTwo = (chunks) => {
 };
 
 const extract = (arr) => {
-  console.log("🚀 DATA :  ~ arr", arr);
   let sum = 0;
   let acc = 0;
   let mul = 1;

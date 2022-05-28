@@ -32,5 +32,3 @@ function findTheWinner(n, k) {
 
   return Number(players[0]);
 }
-
-console.log(findTheWinner(10, 7));
