@@ -11,16 +11,25 @@
 
 
 ## 문제
-### 1주차
+### 1주차 - 자료구조
 
-* https://leetcode.com/problems/roman-to-integer/  13. Roman to Integer
-* https://leetcode.com/problems/linked-list-cycle/ 141. Linked List Cycle
-* https://leetcode.com/problems/finding-pairs-with-a-certain-sum/  1865. Finding Pairs With a Certain Sum
-* https://leetcode.com/problems/score-of-parentheses/ 856. Score of Parentheses
+* [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)
+* [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+* [856. Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)
+* [1865. Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/)
 
-### 2주차
 
-* https://leetcode.com/problems/remove-element/ 27. Remove Element
-* https://leetcode.com/problems/clone-graph/ 133. Clone Graph
-* https://leetcode.com/problems/baseball-game/ 682. Baseball Game
-* https://leetcode.com/problems/find-the-winner-of-the-circular-game/ 1823. Find the Winner of the Circular Game
+### 2주차 - 자료구조
+
+* [27. Remove Element](https://leetcode.com/problems/remove-element/)
+* [133. Clone Graph](https://leetcode.com/problems/clone-graph/)
+* [682. Baseball Game](https://leetcode.com/problems/baseball-game/)
+* [1823. Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)
+
+### 3주차 - DFS, BFS
+
+* [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+* [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
+* [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+* [388. Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)
+* [1530. Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)
