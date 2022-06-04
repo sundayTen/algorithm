@@ -22,7 +22,7 @@ const extract = (arr) => {
   let sum = 0;
   let acc = 0;
   let mul = 1;
-
+=
   for (let i = 0; i < arr.length; i++) {
     if (typeof arr[i] === "number" && arr[i] >= 1) {
       acc += arr[i];
