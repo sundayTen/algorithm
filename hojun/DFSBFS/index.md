@@ -55,3 +55,17 @@ DFS, BFS 는 트리를 탐색하는 방법 중 하나입니다.
 3. 최단거리
 
    최단거리 문제에는 BFS를 활용
+
+## Traversal
+
+트리를 순회하는 순서.
+
+1. InOrder
+
+2. PostOrder
+
+3. PreOrder
+
+## Node with Array
+
+[이거 아닌가요..?](https://www.techiedelight.com/build-binary-tree-given-parent-array/)
