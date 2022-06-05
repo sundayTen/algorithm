@@ -25,10 +25,17 @@
 * [682. Baseball Game](https://leetcode.com/problems/baseball-game/)
 * [1823. Find the Winner of the Circular Game](https://leetcode.com/problems/find-the-winner-of-the-circular-game/)
 
-### 3주차 - DFS, BFS
+### 3주차 - 완전탐색
 
 * [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
 * [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)
 * [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)
 * [388. Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/)
 * [1530. Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/)
+
+### 4주차 - 완전탐색
+
+* [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
+* [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/)
+* [797. All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)
+* [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)
