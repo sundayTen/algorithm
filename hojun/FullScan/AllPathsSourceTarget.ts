@@ -1,5 +1,5 @@
 type NodeVal = number;
-type Path = number[];
+type Path = NodeVal[];
 type Graph = Path[];
 
 const isDone = (endNode: NodeVal, node: NodeVal) => endNode === node;
@@ -18,9 +18,7 @@ const allPathsSourceTarget = (graph: Graph) => {
     graph[targetIndex].forEach((node) => findPath(newPath, node));
   };
 
-  graph.slice(0, end).forEach((path, startNode) => {
-    path.forEach((node) => findPath([startNode], node));
-  });
+  graph[0].forEach((node) => findPath([0], node));
 
   return foundPath.filter((path) => path[0] === 0);
 };
