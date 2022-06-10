@@ -2,23 +2,20 @@ type NodeVal = number;
 type Path = number[];
 type Graph = Path[];
 
-const graphs: Graph[] = [
-  [[1, 2], [3], [3], []],
-  [[4, 3, 1], [3, 2, 4], [3], [4], []],
-];
 const isDone = (endNode: NodeVal, node: NodeVal) => endNode === node;
 
-const findAllPath = (graph: Graph) => {
+const allPathsSourceTarget = (graph: Graph) => {
   const end = graph.length - 1;
   const foundPath: Path[] = [];
 
   const findPath = (path: Path, targetIndex: NodeVal) => {
+    const newPath = [...path, targetIndex];
+
     if (isDone(end, targetIndex)) {
-      foundPath.push([...path, targetIndex]);
+      foundPath.push(newPath);
     }
-    graph[targetIndex].forEach((node) =>
-      findPath([...path, targetIndex], node)
-    );
+
+    graph[targetIndex].forEach((node) => findPath(newPath, node));
   };
 
   graph.slice(0, end).forEach((path, startNode) => {

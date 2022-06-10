@@ -16,8 +16,6 @@ function canVisitAllRooms(rooms: Rooms): boolean {
       opened[roomNumber] = true;
       rooms[roomNumber].forEach(open);
     }
-
-    return;
   };
 
   open(0);
