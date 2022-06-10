@@ -48,76 +48,72 @@
 // };
 
 const isEmpty = (chunks) => {
-  return (
-    chunks.length > 0 &&
-    chunks.map((chunk) => chunk.split("\t")).every((t) => t.length === 1)
-  );
+    return chunks.length > 0 && chunks.map((chunk) => chunk.split('\t')).every((t) => t.length === 1);
 };
 
 const isValidPath = (path) => {
-  return path.includes(".");
+    return path.includes('.');
 };
 
 const findPathLength = (string) => {
-  const splittedString = string.split("\n");
-  let parentChunk = [];
+    const splittedString = string.split('\n');
+    let parentChunk = [];
 
-  if (isEmpty(splittedString)) {
-    return Math.max(
-      ...splittedString.map((chunk) => {
-        if (isValidPath(chunk)) {
-          return chunk.length;
-        }
-        return 0;
-      })
-    );
-  }
+    if (isEmpty(splittedString)) {
+        return Math.max(
+            ...splittedString.map((chunk) => {
+                if (isValidPath(chunk)) {
+                    return chunk.length;
+                }
+                return 0;
+            }),
+        );
+    }
 
-  const data = string
-    .split("\n")
-    .filter((chunk) => chunk !== "")
-    .map((chunk) => chunk.split("\t"))
-    .filter((chunk) => chunk.length > 1)
-    .map((chunks, index, array) => {
-      const len = chunks.length;
+    const data = string
+        .split('\n')
+        .filter((chunk) => chunk !== '')
+        .map((chunk) => chunk.split('\t'))
+        .filter((chunk) => chunk.length > 1)
+        .map((chunks, index, array) => {
+            const len = chunks.length;
+            if (len === 2) {
+                parentChunk = [splittedString[0], chunks[len - 1]];
+                return [splittedString[0], chunks[len - 1]];
+            }
 
-      if (len === 2) {
-        parentChunk = [splittedString[0], chunks[len - 1]];
-        return [splittedString[0], chunks[len - 1]];
-      }
+            const calculatedChunk = [...parentChunk, chunks[len - 1]];
 
-      const calculatedChunk = [...parentChunk, chunks[len - 1]];
+            if (array[index + 1] && array[index + 1].length > len) {
+                parentChunk = calculatedChunk;
+            }
 
-      if (array[index + 1] && array[index + 1].length > len) {
-        parentChunk = calculatedChunk;
-      }
+            return calculatedChunk;
+        })
+        .map((chunks) => {
+            const fullPath = chunks.join('/');
+            if (isValidPath(fullPath)) {
+                return fullPath.length;
+            }
+            return 0;
+        });
 
-      return calculatedChunk;
-    })
-    .map((chunks) => {
-      const fullPath = chunks.join("/");
-      if (isValidPath(fullPath)) {
-        return fullPath.length;
-      }
-      return 0;
-    });
-
-  return Math.max(...data);
+    return Math.max(...data);
 };
 
 const splitArray = (data) =>
-  data
-    .split("\n")
-    .map((d, index) => (d.includes("\t") ? null : index))
-    .filter((d) => d !== null);
+    data
+        .split('\n')
+        .map((d, index) => (d.includes('\t') ? null : index))
+        .filter((d) => d !== null);
 
 const lengthLongestPath = (input) => {
-  return splitArray(input).map((item, index, array) =>
-    findPathLength(
-      input
-        .split("\n")
-        .slice(item, array[index + 1])
-        .join("\n")
-    )
-  );
+    return splitArray(input).map((item, index, array) =>
+        findPathLength(
+            input
+                .split('\n')
+                .slice(item, array[index + 1])
+                .join('\n'),
+        ),
+    );
 };
