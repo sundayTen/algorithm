@@ -51,3 +51,10 @@
 * [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/)
 * [797. All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)
 * [841. Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/)
+
+### 5주차 - 백트래킹
+
+* [51. N-Queens](https://leetcode.com/problems/n-queens/)
+* [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
+* [526. Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)
+* [1863. Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)
