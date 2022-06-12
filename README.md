@@ -11,10 +11,10 @@
 
 ## 일정 (22.05.15 ~ 22.07.31)
 
-* 스터디 준비 미팅 - 1주
-* 자료구조 - 2주
-* 완전탐색 - 2주
-* 백트래킹 - 1주
+* 스터디 준비 미팅 - 1주 ✔
+* 자료구조 - 2주 ✔
+* 완전탐색 - 2주 ✔
+* 백트래킹 - 1주 🚀
 * 다익스트라 - 1주
 * 그리디 - 1주
 * DP - 2주
@@ -58,3 +58,15 @@
 * [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)
 * [526. Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)
 * [1863. Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)
+
+### 6주차 - 다익스트라
+* [783. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)
+* [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
+* [1368. Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
+* [1514. Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)
+
+### 7주차 - 그리디
+* [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+* [55. Jump Game](https://leetcode.com/problems/jump-game/)
+* [134. Gas Station](https://leetcode.com/problems/gas-station/)
+* [1323. Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)
