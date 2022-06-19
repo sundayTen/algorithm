@@ -14,11 +14,11 @@
 * 스터디 준비 미팅 - 1주 ✔
 * 자료구조 - 2주 ✔
 * 완전탐색 - 2주 ✔
-* 백트래킹 - 1주 🚀
+* 백트래킹 - 1주 ✔
+* 구현 + 그래프, 트리 - 2주 🚀
 * 다익스트라 - 1주
 * 그리디 - 1주
 * DP - 2주
-* 구현 + 그래프, 트리 - 2주
 
 
 ## 문제
@@ -59,14 +59,33 @@
 * [526. Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)
 * [1863. Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/)
 
-### 6주차 - 다익스트라
+### 6주차 - 구현, 그래프, 트리
+
+* [112. Path Sum](https://leetcode.com/problems/path-sum/)
+* [997. Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)
+* [1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
+* [1926. Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/)
+
+### 7주차 - 구현, 그래프, 트리
+
+not yet
+
+### 8주차 - 다익스트라
 * [783. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)
 * [787. Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
 * [1368. Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
 * [1514. Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)
 
-### 7주차 - 그리디
+### 9주차 - 그리디
 * [11. Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 * [55. Jump Game](https://leetcode.com/problems/jump-game/)
 * [134. Gas Station](https://leetcode.com/problems/gas-station/)
 * [1323. Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)
+
+### 10주차 - 다이나믹 프로그래밍
+
+not yet
+
+### 11주차 - 다이나믹 프로그래밍
+
+not yet
