@@ -18,12 +18,14 @@ const isPromising = (row: boolean[]) => row.every((f) => f);
 function solveNQueens(n: number): string[][] {
   const chessboard = initialize(n);
 
-  const check = (row: number, col: number) => {};
+  const check = (row: number, col: number) => {
+      chessboard
+  };
 
   chessboard.forEach((row, y, chessBoard) => {
     if (isPromising(row)) {
-      row.forEach((val, x) => {
-        if (val === false) {
+      row.forEach((visited, x) => {
+        if (visited === false) {
           check(x, y);
         }
       });

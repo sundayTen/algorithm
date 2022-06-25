@@ -6,7 +6,7 @@ const getSubsets = (arr) => {
 
   const getSubSet = (depth) => {
     if (depth === arr.length) {
-      const subSet = arr.filter((_, index) => flag[index]);
+      const subSet = arr.filter((_, index) => checker[index]);
       subSets.push(subSet);
       return;
     }
