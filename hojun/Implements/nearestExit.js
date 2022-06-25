@@ -1,16 +1,3 @@
-const maze = [
-    [".", "+", "+", "+", ".", ".", ".", "+", "+"],
-    [".", ".", "+", ".", "+", ".", "+", "+", "."],
-    [".", ".", "+", ".", ".", ".", ".", ".", "."],
-    [".", "+", ".", ".", "+", "+", ".", "+", "."],
-    [".", ".", ".", ".", ".", ".", ".", "+", "."],
-    [".", ".", ".", ".", ".", ".", ".", ".", "."],
-    [".", ".", ".", "+", ".", ".", ".", ".", "."],
-    [".", ".", ".", ".", ".", ".", ".", ".", "+"],
-    ["+", ".", ".", ".", "+", ".", ".", ".", "."],
-  ],
-  entrance = [5, 6];
-
 const isExitGenerator = (sizeX, sizeY) => (i, j) => {
   if (i < 0 || i >= sizeY) {
     return true;
@@ -57,10 +44,5 @@ const nearestExit = (maze, entrance) => {
   };
 
   visit(maze, entrance, 0);
-
-  console.log("🚀 DATA :  ~ answer", answer, route);
-  answer.forEach((ans, ind) => console.log(ans, route[ind]));
   return answer.length <= 0 ? -1 : Math.min(...answer);
 };
-
-console.log(nearestExit(maze, entrance));
