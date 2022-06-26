@@ -68,7 +68,10 @@
 
 ### 7주차 - 구현, 그래프, 트리
 
-not yet
+* [950. Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/)
+* [1518. Water Bottles](https://leetcode.com/problems/water-bottles/)
+* [1615. Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)
+* [1791. Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)
 
 ### 8주차 - 다익스트라
 * [783. Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)
