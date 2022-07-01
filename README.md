@@ -89,8 +89,15 @@
 
 ### 10주차 - 다이나믹 프로그래밍
 
-not yet
+* [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)
+* [119. Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)
+* [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+* [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+* [123. Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)
 
 ### 마지막 11주차 - 다이나믹 프로그래밍
 
-not yet
+* [5. Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
+* [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+* [312. Burst Balloons](https://leetcode.com/problems/burst-balloons/)
+* [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
