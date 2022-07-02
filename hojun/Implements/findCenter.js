@@ -18,9 +18,3 @@ const findCenter = (edges) => {
 
     return Object.entries(map).find((obj) => obj[1] === edges.length)[0];
 };
-
-findCenter([
-    [1, 2],
-    [2, 3],
-    [4, 2],
-]);

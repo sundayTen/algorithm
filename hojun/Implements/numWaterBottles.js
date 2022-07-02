@@ -12,5 +12,3 @@ const numWaterBottles = (numBottles, numExchange) => {
 
     return drunk;
 };
-
-console.log(numWaterBottles(15, 4));
