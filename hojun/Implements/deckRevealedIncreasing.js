@@ -10,5 +10,5 @@ const deckRevealedIncreasing = (deck) => {
 
     const answer = Array(deck.length).fill(-1);
     popOrder.forEach((ans, index) => (answer[ans] = sortedDeck[index]));
-    return real;
+    return answer;
 };
