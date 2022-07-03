@@ -13,7 +13,7 @@
  *     }
  * }
  */
-class Solution {
+class Solution {//다른 풀이 생각해보기
     ArrayList<Integer> list = new ArrayList<>();
     public int minDiffInBST(TreeNode root) {
         int answer = Integer.MAX_VALUE;
