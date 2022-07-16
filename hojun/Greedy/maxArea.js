@@ -10,6 +10,6 @@ const maxArea = (height) => {
         return WIDTH * HEIGHT;
       });
 
-    return maxMath.max(...calculated) >  ? Math.max(...calculated) : max;
+    return maxMath.max(...calculated) > max ? Math.max(...calculated) : max;
   }, 0);
 };
